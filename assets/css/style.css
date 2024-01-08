@@ -103,7 +103,7 @@ h6 {
   text-transform: uppercase;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
   #header .logo h1 {
     font-size: 28px;
   }
@@ -117,7 +117,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  max-height: 26px;
+  max-height: 31px;
 }
 
 /*--------------------------------------------------------------
