@@ -642,10 +642,22 @@ section {
   font-size: 24px;
 }
 
-#about .about-container .img {
+#about .about-img1 {
     width: 50%;
     height: auto;
     float: right;
+ }
+
+#about .about-img2 {
+    width: 50%;
+    height: auto;
+    float: left;
+ }
+
+#about .about-img3 {
+    width: 50%;
+    height: auto;
+    float: left;
  }
 
 /* Services Section
