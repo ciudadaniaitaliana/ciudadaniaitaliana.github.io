@@ -368,7 +368,7 @@ h6 {
 }
 
 #hero .hero-img {
-  width: 50%;
+  width: 40%;
   float: right;
 }
 
@@ -381,7 +381,7 @@ h6 {
 }
 
 #hero .hero-info {
-  width: 50%;
+  width: 60%;
   float: left;
 }
 
@@ -642,10 +642,11 @@ section {
   font-size: 24px;
 }
 
-#about .col-lg-6 background order-lg-2 {
+#about .about-container .img {
     width: 50%;
     height: auto;
- } 
+    float: right;
+ }
 
 /* Services Section
 --------------------------------*/
