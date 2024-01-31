@@ -91,7 +91,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  height: 70px;
+  height: 60px;
 }
 
 #header .logo h1 {
@@ -104,7 +104,7 @@ h6 {
   display: inline-block;
 }
 
-@media (max-width: 10000px) {
+@media (max-width: 1000px) {
   #header .logo h1 {
     font-size: 28px;
     display: inline-block;
@@ -347,7 +347,8 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+    width: 50%;
+    height: auto;
   position: relative;
   background: url("../img/hero-bg.png") center bottom no-repeat;
   background-size: cover;
@@ -641,6 +642,11 @@ section {
   font-weight: 600;
   font-size: 24px;
 }
+
+#about .col-lg-6 background order-lg-2 {
+    width: 50%;
+    height: auto;
+ } 
 
 /* Services Section
 --------------------------------*/
