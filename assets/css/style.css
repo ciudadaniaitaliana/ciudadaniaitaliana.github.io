@@ -101,11 +101,13 @@ h6 {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 @media (max-width: 10000px) {
   #header .logo h1 {
     font-size: 28px;
+    display: inline-block;
   }
 }
 
@@ -114,11 +116,13 @@ h6 {
   color: #00366f;
   text-decoration: none;
   font-size: 30px;
+  display: inline-block;
 }
 
 #header .logo img {
   padding: 0;
   max-height: 50px;
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------
