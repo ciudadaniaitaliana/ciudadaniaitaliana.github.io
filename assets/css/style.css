@@ -91,7 +91,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  height: 60px;
+  height: 70px;
 }
 
 #header .logo h1 {
@@ -103,7 +103,7 @@ h6 {
   text-transform: uppercase;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 10000px) {
   #header .logo h1 {
     font-size: 28px;
   }
@@ -113,11 +113,12 @@ h6 {
 #header .logo h1 a:hover {
   color: #00366f;
   text-decoration: none;
+  font-size: 30px;
 }
 
 #header .logo img {
   padding: 0;
-  max-height: 31px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
