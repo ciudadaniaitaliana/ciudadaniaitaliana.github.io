@@ -104,12 +104,13 @@ h6 {
   display: inline-block;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 22px;
     display: inline-block;
   }
 }
+
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
@@ -249,7 +250,6 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
-  display: inline-block;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -267,6 +267,8 @@ h6 {
 }
 
 .navbar-mobile {
+  font-size: 20px;
+  display: inline-block;
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -660,6 +662,30 @@ section {
     height: auto;
     float: left;
  }
+
+@media (max-width: 900px) {
+  #about .about-img1 {
+    width: 60%;
+    height: auto;
+    float: center;
+  }
+}
+
+@media (max-width: 900px) {
+  #about .about-img2 {
+    width: 60%;
+    height: auto;
+    float: center;
+  }
+}
+
+@media (max-width: 900px) {
+  #about .about-img3 {
+    width: 60%;
+    height: auto;
+    float: center;
+  }
+}
 
 /* Services Section
 --------------------------------*/
