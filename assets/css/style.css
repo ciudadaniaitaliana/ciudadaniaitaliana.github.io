@@ -94,6 +94,12 @@ h6 {
   height: 60px;
 }
 
+@media (max-width: 900px) {
+  #header.header-scrolled {
+    height: 40px;
+  }
+}
+
 #header .logo h1 {
   font-size: 36px;
   margin: 0;
@@ -645,47 +651,6 @@ section {
   font-size: 24px;
 }
 
-#about .about-img1 {
-    width: 50%;
-    height: auto;
-    float: left;
- }
-
-#about .about-img2 {
-    width: 50%;
-    height: auto;
-    float: right;
- }
-
-#about .about-img3 {
-    width: 50%;
-    height: auto;
-    float: left;
- }
-
-@media (max-width: 900px) {
-  #about .about-img1 {
-    width: 60%;
-    height: auto;
-    float: center;
-  }
-}
-
-@media (max-width: 900px) {
-  #about .about-img2 {
-    width: 60%;
-    height: auto;
-    float: center;
-  }
-}
-
-@media (max-width: 900px) {
-  #about .about-img3 {
-    width: 60%;
-    height: auto;
-    float: center;
-  }
-}
 
 /* Services Section
 --------------------------------*/
