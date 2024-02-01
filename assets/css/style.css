@@ -244,11 +244,12 @@ h6 {
 */
 .mobile-nav-toggle {
   color: #283d50;
-  font-size: 28px;
+  font-size: 22px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
+  display: inline-block;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -645,13 +646,13 @@ section {
 #about .about-img1 {
     width: 50%;
     height: auto;
-    float: right;
+    float: left;
  }
 
 #about .about-img2 {
     width: 50%;
     height: auto;
-    float: left;
+    float: right;
  }
 
 #about .about-img3 {
